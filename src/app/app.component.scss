@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #363636;
+}
+
+form {
+  margin-bottom: 40px;
+
+  input,
+  button {
+    margin-top: 15px;
+    padding: 5px;
+    display: block;
+  }
+}
+
+div {
+  padding: 15px 0;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 5px 0;
+  display: block;
+}
