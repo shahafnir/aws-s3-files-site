@@ -2,13 +2,15 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 10
     commands:
-      - npm install
+      - echo Installing angular cli...
+      - npm install -g @angular/cli
   build:
-    command:
-      - npm run build
-
+    commands:
+      - echo Build started...
+      - ng build --prod
 artifacts:
   files:
-    - "**/*"
-  base-directory: dist
+    - dist/**/*
