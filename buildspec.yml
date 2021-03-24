@@ -12,10 +12,6 @@ phases:
     commands:
       - echo Build started...
       - ng build --prod
-  post_build:
-    commands:
-      - cd dist
-      - aws s3 cp aws-S3-files-site s3://shahaf-images-site --recursive
 artifacts:
   files:
     - dist/**/*
