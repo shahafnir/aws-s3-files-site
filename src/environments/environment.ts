@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  serverEndpointUrl: 'http://localhost:8080/',
+  serverEndpointUrl:
+    'http://imagesserver-env.eba-ppnv7jpp.eu-west-1.elasticbeanstalk.com/',
 };
 
 /*
