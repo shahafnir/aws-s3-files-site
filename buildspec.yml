@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started...
       - ng build --prod
+      - aws s3 sync dist/aws-S3-files-site/ s3://shahaf-images-site
 artifacts:
   files:
     - dist/**/*
