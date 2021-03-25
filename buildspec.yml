@@ -20,6 +20,8 @@ phases:
 artifacts:
   files:
     - '**/*'
+  base-directory: 'dist*'
+  discard-paths: yes
 
 # version: 0.2
 
